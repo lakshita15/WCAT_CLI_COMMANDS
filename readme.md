@@ -5,10 +5,10 @@
 <code>-s</code> --->> is used to remove all the empty lines from file   
 <code>-n</code> --->> is used to add numbers to various lines   
 <code>-b</code> --->> is used to not assign any number to the empty lines   
-<code>-w</code>--->> is used to write one file to another file without changing its own content.  
-<code>-ws</code> --->> is used to write second file by fully replacing it with the content of file 1   
-<code>-r</code> --->> is used to rename the file ..    
-
+<code>-a</code>--->> is used to write one file to another file without changing its own content.  
+<code>-ws</code> --->> is used to write second file by fully replacing it with the content of file 1 and deleting blank lines   
+<code>-r</code> --->> is used to rename the file      
+<code>-w</code> --->> is used to write one file to other  
 
 # **SYNTAX AND CASES**  
 <b>-s</b>      
@@ -16,7 +16,7 @@
   
 <b>-b</b>  
 <code>wcat -b filename</code>     
-<b>-b</b>    
+<b>-r</b>    
 <code>wcat -r filename</code>     
 
 <b>-n</b>  
