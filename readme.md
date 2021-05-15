@@ -1,4 +1,4 @@
-#WCAT-COMMANDS
+#**WCAT-COMMANDS**
 CLI = > command line interface 
 i have made some commands that do the following tasks:-
 
@@ -9,7 +9,7 @@ i have made some commands that do the following tasks:-
 -ws --->> is used to write second file by fully replacing it with the content of file 1
 
 
-#SYNTAX AND CASES
+#**SYNTAX AND CASES**
 -s 
 wcat -s filename 
 
