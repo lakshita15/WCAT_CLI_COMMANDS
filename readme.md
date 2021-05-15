@@ -1,6 +1,6 @@
-#**WCAT-COMMANDS**
-CLI = > command line interface 
-i have made some commands that do the following tasks:-
+#**WCAT-COMMANDS** 
+-CLI = > command line interface 
+-I have made some commands that do the following tasks:-
 
 -s --->> is used to remove all the empty lines from file 
 -n --->> is used to add numbers to various lines
