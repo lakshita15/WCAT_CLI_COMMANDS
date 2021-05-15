@@ -1,4 +1,4 @@
-#**WCAT-COMMANDS** 
+#**WCAT-COMMANDS**     
 -CLI = > command line interface 
 -I have made some commands that do the following tasks:-
 
