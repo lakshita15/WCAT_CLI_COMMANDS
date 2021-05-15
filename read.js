@@ -2,10 +2,6 @@
 
 // const fs = require('fs');
 
-// let data = fs.readFileSync("abc.txt","utf-8");
-// fs.writeFileSync("abc.txt",data + " Hello, this is pepcoding");
-// console.log(fs.existsSync("ab.txt"));
-
 let cmds = process.argv.slice(2);
 const fs = require("fs");
 
@@ -27,7 +23,11 @@ function wcat(cmds) {
             return;
         }
     }
-
+//renaming a file 
+if(options.includes("-r")){
+    let rename = fs.renameSync("abc.txt" , "ghi.txt");
+    return ;
+}
     // writing commands
 
     if(options.includes("-w")) {
