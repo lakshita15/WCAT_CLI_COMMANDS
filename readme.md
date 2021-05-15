@@ -29,10 +29,12 @@ case3:-only -b present
   
 <b>-w</b>  
 <code>wcat filname1 -w filename2</code>    
+
+<b>-a</b>  
 filename1 = the file you want to read and write in file2  
 filename2 = the file in which you want to add the contents of file1 without changing its initial content   
   
 <b>-ws</b>    
 <code>wcat filname1 -ws filename2 </code>     
 filename1 = the file you want to read and write in file2   
-filename2 = the file in which you want to add the contents of file1. It deletes all the previous content of 2 file and writes the content of file 1  
+filename2 = the file in which you want to add the contents of file1. It deletes all the previous content of 2 file and writes the content of file 1 by deleting blank lines 
