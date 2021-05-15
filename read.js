@@ -25,7 +25,7 @@ function wcat(cmds) {
     }
 //renaming a file 
 if(options.includes("-r")){
-    let rename = fs.renameSync("abc.txt" , "ghi.txt");
+    let rename = fs.renameSync("abc.txt" , "abc.txt");
     return ;
 }
     // writing commands

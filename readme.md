@@ -7,6 +7,7 @@
 <code>-b</code> --->> is used to not assign any number to the empty lines   
 <code>-w</code>--->> is used to write one file to another file without changing its own content.  
 <code>-ws</code> --->> is used to write second file by fully replacing it with the content of file 1   
+<code>-r</code> --->> is used to rename the file ..    
 
 
 # **SYNTAX AND CASES**  
@@ -15,6 +16,8 @@
   
 <b>-b</b>  
 <code>wcat -b filename</code>     
+<b>-b</b>    
+<code>wcat -r filename</code>     
 
 <b>-n</b>  
 <code> wcat -n filename</code>     
