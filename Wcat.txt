@@ -1,0 +1,8 @@
+CLI = > command line interface 
+i have made some commands that do the following tasks:-
+
+-s --->> is used to remove all the empty lines from file 
+-n --->> is used to add numbers to various lines
+-b --->> is used to not assign any number to the empty lines
+-w --->> is used to write one file to another file without changing its own content.
+-ws --->> is used to write second file by fully replacing it with the content of file 1

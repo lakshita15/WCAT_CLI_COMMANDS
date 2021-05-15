@@ -29,6 +29,7 @@ function wcat(cmds) {
     }
 
     // writing commands
+
     if(options.includes("-w")) {
         if(options.length != 1 || files.length != 2 || cmds.indexOf("-w") != 1) {
             console.log("Command not found");
@@ -45,6 +46,18 @@ function wcat(cmds) {
         let file1 = fs.readFileSync(files[0], "utf-8");
         let file2 = fs.readFileSync(files[1], "utf-8");
         fs.writeFileSync(files[1], file2 + "\r\n" + file1);
+        return;
+    }else if (options.includes("-ws")){
+        
+        if(options.length!=1 || files.length !=2 || cmds.indexOf("-ws") != 1 ){
+            console.log("Command not found");
+            return;
+        }
+        let file1 = fs.readFileSync(files[0], "utf-8");
+        let file2 = fs.readFileSync(files[1], "utf-8");
+        
+
+        fs.writeFileSync(files[1],  file1);
         return;
     }
 
